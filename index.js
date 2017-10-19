@@ -24,7 +24,7 @@ function currentLine(katzDeliLine) {
     for(var i=0;i<katzDeliLine.length;i++) {
       var number = i+1;
       string = string+number+". "+katzDeliLine[i];
-      if(i<string.length) {
+      if(i<string.length-1) {
         string=string+", ";
       }
     }

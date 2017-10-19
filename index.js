@@ -25,6 +25,7 @@ function currentLine(katzDeliLine) {
       var number = i+1;
       string = string+number+". "+katzDeliLine[i]+", ";
     }
+    string.pop();
     return string;
   }
 }
